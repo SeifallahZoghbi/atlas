@@ -72,7 +72,7 @@ export default async function AttendancePage() {
     .eq('status', 'absent')
     .order('created_at', { ascending: false });
 
-  const absentStudents = (absentRecords || []) as AbsentStudent[];
+  const absentStudents = (absentRecords || []) as unknown as AbsentStudent[];
 
   const sessionMap = new Map(sessions?.map((s) => [s.class_id, s]) || []);
   const classesWithoutAttendance = allClasses?.filter(

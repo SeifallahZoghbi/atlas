@@ -23,10 +23,10 @@ export default async function DashboardPage() {
   ]);
 
   const stats = [
-    { name: 'Total Users', value: usersCount || 0, icon: '👥', color: 'blue' },
-    { name: 'Students', value: studentsCount || 0, icon: '🎓', color: 'green' },
-    { name: 'Classes', value: classesCount || 0, icon: '📚', color: 'purple' },
-    { name: 'Announcements', value: recentFeed?.length || 0, icon: '📢', color: 'orange' },
+    { name: 'Total Users', value: usersCount || 0, icon: '👥', color: 'blue' as const },
+    { name: 'Students', value: studentsCount || 0, icon: '🎓', color: 'green' as const },
+    { name: 'Classes', value: classesCount || 0, icon: '📚', color: 'purple' as const },
+    { name: 'Announcements', value: recentFeed?.length || 0, icon: '📢', color: 'orange' as const },
   ];
 
   return (

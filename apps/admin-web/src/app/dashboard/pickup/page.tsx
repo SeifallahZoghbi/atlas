@@ -180,7 +180,7 @@ export default async function PickupDashboardPage() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {Object.entries(byMode).map(([mode, count]) => (
             <div key={mode} className="text-center p-3 bg-gray-50 rounded-lg">
-              <p className="text-2xl font-bold text-gray-900">{count}</p>
+              <p className="text-2xl font-bold text-gray-900">{count as number}</p>
               <p className="text-xs text-gray-500">{MODE_LABELS[mode] || mode}</p>
             </div>
           ))}
