@@ -59,7 +59,7 @@ export default async function AttendancePage() {
     .order('name');
 
   // Fetch today's absent students
-  const { data: absentStudents } = await supabase
+  const { data: absentRecords } = await supabase
     .from('attendance_records')
     .select(`
       id,
@@ -71,6 +71,8 @@ export default async function AttendancePage() {
     .eq('date', today)
     .eq('status', 'absent')
     .order('created_at', { ascending: false });
+
+  const absentStudents = (absentRecords || []) as AbsentStudent[];
 
   const sessionMap = new Map(sessions?.map((s) => [s.class_id, s]) || []);
   const classesWithoutAttendance = allClasses?.filter(
