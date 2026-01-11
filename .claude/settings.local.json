@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(tree:*)",
+      "Bash(supabase init:*)",
+      "Bash(gh auth status:*)",
+      "Bash(vercel:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: School Super App\n\nComplete multi-tenant school operations platform:\n\nBackend \\(Supabase\\):\n- Core schema: schools, users, students, classes\n- Feed & messaging with real-time subscriptions\n- Attendance tracking system\n- Student logistics \\(pickup/dismissal\\)\n- Payments & forms with digital signatures\n- Bus tracking with GPS location history\n\nMobile App \\(Expo\\):\n- Parent view: feed, messaging, children, payments, forms\n- Teacher view: attendance, class feed\n- Real-time updates via Supabase subscriptions\n\nDriver App \\(Expo\\):\n- Route management and trip tracking\n- Real-time GPS location broadcasting\n- Student boarding/alighting scanning\n\nAdmin Dashboard \\(Next.js\\):\n- User, student, class management\n- Announcements and messaging\n- Attendance monitoring\n- Pickup queue management\n- Payment and form creation\n- Bus fleet and route management\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

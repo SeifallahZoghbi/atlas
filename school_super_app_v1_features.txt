@@ -1,0 +1,129 @@
+
+SCHOOL SUPER APP – V1 FEATURE SET (LOCKED)
+========================================
+
+CORE PRINCIPLES
+---------------
+- One app, one feed, one source of truth
+- Ops-first, daily-use features
+- Fast capture > perfect data
+- Parent trust and compliance over feature bloat
+
+
+MODULES & FEATURES
+------------------
+
+1. UNIFIED FEED (FRONT DOOR)
+- School announcements
+- Class updates
+- Homework & deadlines
+- Attendance events (late / absent)
+- Pickup & dismissal events
+- Live bus status events
+- Payments due / confirmed
+- Forms & approvals
+- Emergency alerts
+
+
+2. MESSAGING (STRUCTURED COMMUNICATION)
+- 1:1 teacher ↔ parent messaging
+- Class groups
+- Grade/section groups
+- Broadcast announcements
+- Automatic language translation
+- Read receipts (admin controlled)
+- Actionable messages:
+  - Sign
+  - Pay
+  - RSVP
+  - Acknowledge
+
+Constraints:
+- No parent-to-parent messaging
+- No open chat chaos
+
+
+3. STUDENT LOGISTICS (CORE DIFFERENTIATOR)
+- Pickup & dismissal management
+- Authorized pickup list per student
+- Real-time pickup status
+- After-school activity tracking
+- Schedule change notifications
+
+
+4. ATTENDANCE (FAST & SIMPLE)
+- One-tap teacher attendance
+- Late / absent reason capture
+- Automatic parent notification
+- Attendance history per student
+- Admin overview dashboard
+
+
+5. LIVE BUS TRACKING
+- Real-time bus GPS tracking (map view)
+- Route visibility
+- Estimated arrival time (ETA)
+- On-bus / off-bus student events
+- Delay / incident alerts
+- Students linked to assigned routes
+
+Note:
+- Separate DRIVER APP
+- Driver app scope: GPS tracking + basic status only
+
+
+6. ACADEMICS (LIGHT)
+- Timetable
+- Homework assignments
+- Simple grades
+- Teacher comments
+- Optional weekly summary for parents
+
+Explicitly NOT a full LMS
+
+
+7. PAYMENTS & FORMS (COMPLIANCE ENGINE)
+- Digital invoices
+- Online payments
+- Receipts
+- Digital forms & permissions
+- Status tracking (who has not paid/signed)
+
+
+8. SAFETY & EMERGENCY
+- Emergency broadcast messages
+- Read confirmations
+- Incident reporting
+- Audit trail
+
+
+9. ROLE-BASED ACCESS
+- Parent view:
+  - Feed
+  - Messages
+  - Actions
+  - Live bus tracking
+- Teacher view:
+  - Attendance
+  - Messaging
+  - Class feed
+- Admin view:
+  - Compliance gaps
+  - Exceptions
+  - System overview
+
+
+OUT OF SCOPE (V1 – DO NOT BUILD)
+-------------------------------
+- Library module
+- AI analytics or copilots
+- Facial recognition
+- Digital textbooks / ebooks
+- CCTV or behavior scoring
+- Parent social networking
+
+
+POSITIONING
+-----------
+“This is not a learning platform.
+It is a school operations and parent trust platform.”

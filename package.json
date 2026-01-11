@@ -1,0 +1,15 @@
+{
+  "name": "school-super-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev:mobile": "pnpm --filter mobile start",
+    "dev:admin": "pnpm --filter admin-web dev",
+    "dev:driver": "pnpm --filter driver start",
+    "db:start": "cd packages/supabase && supabase start",
+    "db:stop": "cd packages/supabase && supabase stop",
+    "db:reset": "cd packages/supabase && supabase db reset",
+    "db:migrate": "cd packages/supabase && supabase migration up",
+    "db:gen-types": "cd packages/supabase && supabase gen types typescript --local > ../shared/src/database.types.ts"
+  }
+}
